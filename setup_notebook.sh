@@ -4,7 +4,7 @@
 conda init zsh
 source ~/.zshrc
 conda update -n base -c defaults conda
-conda create --name myenv python=3.11
+conda create --name myenv python=3.8
 conda activate myenv
 
 # Install Python dependencies
